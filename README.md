@@ -12,9 +12,10 @@ Apply filters to narrow down the list based on cuisine, price, or location.
 Tap on a restaurant to view detailed information and available dishes.
 
 A few resources to get you started if this is your first Flutter project:
-![Screenshot 1](screens/1.jpg)
+<img src="screens/1.jpg" alt="Screenshot 1" width="400"/>
+<img src="screens/2.jpg" alt="Screenshot 1" width="400"/>
 
-![Screenshot 1](screens/2.jpg)
+
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
