@@ -13,7 +13,8 @@ Tap on a restaurant to view detailed information and available dishes.
 
 A few resources to get you started if this is your first Flutter project:
 
-(screens/1.jpg)
+(./screens/1.jpg)
+(./screens/2.jpg)
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
