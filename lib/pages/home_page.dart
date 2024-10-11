@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../widgets/widgets.dart';
+import 'details.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -58,11 +59,16 @@ class _HomePageState extends State<HomePage> {
               child: Expanded(
                 child: ListView(
                   children: [
-                    buildItems(
-                      "USTA",
-                      "123 reviews",
-                      "https://images.pexels.com/photos/3676531/pexels-photo-3676531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-                      4.5,
+                    InkWell(
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (_)=>DetailPage()));
+                      },
+                      child: buildItems(
+                        "USTA",
+                        "123 reviews",
+                        "https://images.pexels.com/photos/3676531/pexels-photo-3676531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                        4.5,
+                      ),
                     ),
                     buildItems(
                       "Frunze",
